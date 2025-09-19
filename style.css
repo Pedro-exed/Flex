@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: innherit;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+.container {
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.circulos1{
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(190, 171, 209);
+    display: flex;
+    align-items: self-end;
+    justify-content: end;
+}
+
+.circulos1 div{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(136, 80, 185);
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.circulos2{
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(186, 236, 195);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.circulos2 div{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(115, 211, 115);
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.circulos3{
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(245, 172, 172);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulos3 div{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(228, 102, 102);
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.circulos4{
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(243, 243, 172);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circulos4 div{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(231, 231, 102);
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.circulos5{
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(178, 178, 231);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circulos5 div{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(103, 103, 233);
+    border-radius: 50%;
+}
+
+.circulos6{
+    width: 100vw;
+    height: 200px;
+    background-color:rgb(97, 96, 96);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.circulos6 div{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(30, 29, 29);
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.circulos7{
+    width: 100vw;
+    height: 200px;
+    background-color:rgb(167, 233, 233);
+    display: flex;
+    align-items:self-start;
+    justify-content: flex-start;
+}
+
+.circulos7 div{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(92, 200, 200);
+    border-radius: 50%;
+    margin: 2px;
+}
+
+
